@@ -16,10 +16,10 @@ let package = Package(
     ],
     
     dependencies: [
-        .package(
-            url: "https://github.com/facebook/facebook-ios-sdk.git",
-                .upToNextMajor(from: "17.0.0") // 可以指定你想要的版本
-        ),
+//        .package(
+//            url: "https://github.com/facebook/facebook-ios-sdk.git",
+//                .upToNextMajor(from: "17.0.0") // 可以指定你想要的版本
+//        ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -28,9 +28,9 @@ let package = Package(
             name: "JackSPM",
             
             dependencies: [
-                .product(name: "FacebookCore", package: "facebook-ios-sdk"),
-                .product(name: "FacebookLogin", package: "facebook-ios-sdk"),
-                .product(name: "FacebookShare", package: "facebook-ios-sdk"),
+//                .product(name: "FacebookCore", package: "facebook-ios-sdk"),
+//                .product(name: "FacebookLogin", package: "facebook-ios-sdk"),
+//                .product(name: "FacebookShare", package: "facebook-ios-sdk"),
             ]
         ),
         
